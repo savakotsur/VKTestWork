@@ -14,19 +14,11 @@
 			remoteGlobalIDString = E26F18212D0109A100F58685;
 			remoteInfo = VKTestWork;
 		};
-		E26F183F2D0109B300F58685 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E26F181A2D0109A100F58685 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E26F18212D0109A100F58685;
-			remoteInfo = VKTestWork;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E26F18222D0109A100F58685 /* VKTestWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKTestWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26F18342D0109B300F58685 /* VKTestWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKTestWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E26F183E2D0109B300F58685 /* VKTestWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKTestWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +30,6 @@
 		E26F18372D0109B300F58685 /* VKTestWorkTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = VKTestWorkTests;
-			sourceTree = "<group>";
-		};
-		E26F18412D0109B300F58685 /* VKTestWorkUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = VKTestWorkUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E26F183B2D0109B300F58685 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +57,6 @@
 			children = (
 				E26F18242D0109A100F58685 /* VKTestWork */,
 				E26F18372D0109B300F58685 /* VKTestWorkTests */,
-				E26F18412D0109B300F58685 /* VKTestWorkUITests */,
 				E26F18232D0109A100F58685 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +66,6 @@
 			children = (
 				E26F18222D0109A100F58685 /* VKTestWork.app */,
 				E26F18342D0109B300F58685 /* VKTestWorkTests.xctest */,
-				E26F183E2D0109B300F58685 /* VKTestWorkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +118,6 @@
 			productReference = E26F18342D0109B300F58685 /* VKTestWorkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E26F183D2D0109B300F58685 /* VKTestWorkUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E26F184E2D0109B300F58685 /* Build configuration list for PBXNativeTarget "VKTestWorkUITests" */;
-			buildPhases = (
-				E26F183A2D0109B300F58685 /* Sources */,
-				E26F183B2D0109B300F58685 /* Frameworks */,
-				E26F183C2D0109B300F58685 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E26F18402D0109B300F58685 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E26F18412D0109B300F58685 /* VKTestWorkUITests */,
-			);
-			name = VKTestWorkUITests;
-			packageProductDependencies = (
-			);
-			productName = VKTestWorkUITests;
-			productReference = E26F183E2D0109B300F58685 /* VKTestWorkUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,10 +133,7 @@
 					};
 					E26F18332D0109B300F58685 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = E26F18212D0109A100F58685;
-					};
-					E26F183D2D0109B300F58685 = {
-						CreatedOnToolsVersion = 16.1;
+						LastSwiftMigration = 1610;
 						TestTargetID = E26F18212D0109A100F58685;
 					};
 				};
@@ -202,7 +154,6 @@
 			targets = (
 				E26F18212D0109A100F58685 /* VKTestWork */,
 				E26F18332D0109B300F58685 /* VKTestWorkTests */,
-				E26F183D2D0109B300F58685 /* VKTestWorkUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +167,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E26F18322D0109B300F58685 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E26F183C2D0109B300F58685 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +190,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E26F183A2D0109B300F58685 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +197,6 @@
 			isa = PBXTargetDependency;
 			target = E26F18212D0109A100F58685 /* VKTestWork */;
 			targetProxy = E26F18352D0109B300F58685 /* PBXContainerItemProxy */;
-		};
-		E26F18402D0109B300F58685 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E26F18212D0109A100F58685 /* VKTestWork */;
-			targetProxy = E26F183F2D0109B300F58685 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,7 +327,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VKTestWork/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = P8AS9474FG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -403,6 +336,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,7 +357,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VKTestWork/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = P8AS9474FG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -431,6 +366,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -456,6 +393,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = savakotsur.VKTestWorkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKTestWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VKTestWork";
@@ -466,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -477,38 +416,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKTestWork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VKTestWork";
-			};
-			name = Release;
-		};
-		E26F184F2D0109B300F58685 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = savakotsur.VKTestWorkUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VKTestWork;
-			};
-			name = Debug;
-		};
-		E26F18502D0109B300F58685 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = savakotsur.VKTestWorkUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VKTestWork;
 			};
 			name = Release;
 		};
@@ -538,15 +445,6 @@
 			buildConfigurations = (
 				E26F184C2D0109B300F58685 /* Debug */,
 				E26F184D2D0109B300F58685 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E26F184E2D0109B300F58685 /* Build configuration list for PBXNativeTarget "VKTestWorkUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E26F184F2D0109B300F58685 /* Debug */,
-				E26F18502D0109B300F58685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
